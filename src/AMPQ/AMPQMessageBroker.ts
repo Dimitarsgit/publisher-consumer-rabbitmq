@@ -1,5 +1,5 @@
 import amqp, { Channel, Connection, Options } from "amqplib";
-import MessageBroker from "../messageBroker/MessageBrocker";
+import MessageBroker from "../messageBroker/MessageBroker";
 
 export interface IAssertExchange {
   exchange: string;
